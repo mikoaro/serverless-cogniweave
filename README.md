@@ -42,7 +42,6 @@ Follow these instructions to get the CogniWeave application running on your loca
   * An [AWS Account](https://aws.amazon.com/free/) and configured credentials.
   * [Node.js](https://nodejs.org/) (latest LTS version)
   * [pnpm](https://pnpm.io/) package manager
-  * [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html) or [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) installed (depending on the IaC choice).
 
 ### Installation & Setup
 
@@ -63,17 +62,7 @@ cd backend/
 
 This will provision the API Gateway, Lambda functions, DynamoDB table, and necessary IAM roles. **Note the `ApiGatewayEndpoint` URL from the deployment output.**
 
-#### 3\. Configure Environment Variables
-
-Create a `.env.local` file in the `frontend/` directory. Add the API Gateway endpoint URL from the previous step.
-
-```env
-# frontend/.env.local
-
-NEXT_PUBLIC_API_GATEWAY_URL="<Your-ApiGatewayEndpoint-URL>"
-```
-
-#### 4\. Install Frontend Dependencies
+#### 3\. Install Frontend Dependencies
 
 Navigate to the frontend directory and install the required packages.
 
