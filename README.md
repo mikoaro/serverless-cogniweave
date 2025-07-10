@@ -48,7 +48,7 @@ Follow these instructions to get the CogniWeave application running on your loca
 #### 1\. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cogniweave-app.git
+git clone https://github.com/mikoaro/cogniweave-app.git
 cd cogniweave-app
 ```
 
